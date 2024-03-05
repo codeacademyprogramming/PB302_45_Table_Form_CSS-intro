@@ -1,0 +1,95 @@
+body {
+    background-image: url(../images/bgimg1.webp);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+p {
+    color: darkgreen;
+    font-size: 24px;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
+#codeUrl {
+    font-weight: 700;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.c-red {
+    color: rgba(155, 31, 31, 0.822);
+}
+
+.c-red.lite {
+    color: rgba(228, 134, 134, 0.822);
+}
+
+#registerForm {}
+
+#loginForm input {
+    font-size: 25px;
+}
+
+#loginForm label {
+    color: brown;
+}
+
+.first-form>.text-input {
+    color: green;
+}
+
+p+a {
+    text-decoration: none;
+}
+
+p.intro {
+    color: yellowgreen;
+}
+
+p .intro {
+    color: yellowgreen;
+}
+
+input:disabled {
+    background-color: aqua;
+    color: red;
+}
+
+#registerForm label:first-child {
+    color: blueviolet;
+}
+
+#registerForm input:focus {
+    outline: none;
+}
+
+#registerForm input:hover {
+    border-color: red;
+}
+
+.box-1 {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/bgimg1.webp);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.box-2 {
+    width: 500px;
+    height: 200px;
+    background: #aa4b6b;
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+}
